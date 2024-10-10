@@ -14,13 +14,13 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: HJ Tech Blog
+title: HJ Tech Blog     # chrome 의 상단 tab 이름
 
 sidebar_title: HJ
 
 tagline: Backend Engineer
 
-subdescription: 업무와 학습을 통해 습득한 지식과 노하우를 기록하고 공유하는 기술 블로그입니다.
+subdescription: 기술 블로그
 
 description: >- # used by seo meta and the atom feed
   Cloud Enginner 업무와 개인 학습을 통해 습득한 AWS, Kubernetes 지식과 Cloud Infra 운영 노하우를 기록하고 공유하는 기술 블로그입니다.
@@ -45,7 +45,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
 #    - https://www.linkedin.com/in/ljy92 # change to your twitter homepage
-#    - https://github.com/jjikin # change to your github homepage
+#    - https://github.com/hidingke8982 # change to your github homepage
 
 google_site_verification: # HiUX75X39S2seddRhdXLzQhozcNg-Tv57p3UN-EiMj4
 
