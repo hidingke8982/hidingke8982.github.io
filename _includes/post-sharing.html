@@ -1,53 +1,65 @@
-<!--
- Post sharing snippet
--->
-<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
-<script>
-  var imgUrl = '';
-  var imgOpengraph = 'https://nugabox.github.io/assets/img/common/metaimage.png';
-  var $imgs = $('.post-content img');
-  var imgUrlCnt = $imgs.length;
-  if($imgs.length > 0)
-    imgUrl = $imgs[0].dataset.src;
-  else
-    imgUrl = imgOpengraph;
+<!-- Post sharing snippet -->
 
-  Kakao.init("6227428dbe368051c80ba49a2fd0a5a2");
-  function sendLink() {
-    Kakao.Link.sendCustom({
-      templateId: 76113,
-      templateArgs: {
-        title: "{{ page.title }}",
-        description: "{{ page.excerpt | strip_html | strip_newlines }}",
-        url : "{{ page.url }}",
-        imgurl: imgUrl,
-      },
-    });
-  }
-</script>
 <div class="share-wrapper">
-  <span class="share-label text-muted mr-1">{{ site.data.locales[lang].post.share }}</span>
+  <span class="share-label text-muted me-1">{{ site.data.locales[include.lang].post.share }}</span>
   <span class="share-icons">
     {% capture title %}{{ page.title }} - {{ site.title }}{% endcapture %}
-    {% assign url = page.url | absolute_url %}
-        <a href="javascript:sendLink();" data-toggle="tooltip" data-placement="top"
-           title="카카오톡 공유하기" rel="noopener" aria-label="카카오톡 공유하기">
-          <i class="fa-fw fas fa-comment"></i>
-        </a>
+    {% assign title = title | uri_escape %}
+    {% assign url = page.url | absolute_url | url_encode %}
+
+    <!-- Share Link to Kakao -->
+    {% capture pre_img %}{{ page.image.path | default: page.image }}"{% endcapture %}
+    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <script> Kakao.init('85d7b653c0d4f963bdafcc1c07338e51'); </script>
+    <script>
+      function shareLink() {
+        Kakao.Link.sendCustom({
+          templateId: 95089,
+          templateArgs: {
+            title: "{{ page.title }}",
+            description: "{{ post.excerpt }}",
+          },
+        });
+      }
+    </script>
+    <a
+      onclick="shareLink(this);"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="KakaoTalk"
+      target="_blank"
+      rel="noopener"
+      aria-label="KakaoTalk"
+    >
+      <i class="fa-fw fa-solid fa-comment"></i>
+    </a>
+    
+    <!-- Telegram, Linkedin -->
     {% for share in site.data.share.platforms %}
-      {% assign link = share.link | replace: 'TITLE', title | replace: 'URL', url | escape %}
-        <a href="{{ link }}" data-toggle="tooltip" data-placement="top"
-          title="{{ share.type }}" target="_blank" rel="noopener" aria-label="{{ share.type }}">
-          <i class="fa-fw {{ share.icon }}"></i>
-        </a>
+      {% assign link = share.link | replace: 'TITLE', title | replace: 'URL', url %}
+      <a
+        href="{{ link }}"
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="{{ share.type }}"
+        target="_blank"
+        rel="noopener"
+        aria-label="{{ share.type }}"
+      >
+        <i class="fa-fw {{ share.icon }}"></i>
+      </a>
     {% endfor %}
 
-    <i id="copy-link" class="fa-fw fas fa-link small"
-        data-toggle="tooltip" data-placement="top"
-        title="{{ site.data.locales[lang].post.button.share_link.title }}"
-        data-title-succeed="{{ site.data.locales[lang].post.button.share_link.succeed }}">
+    <!-- Copy Link -->
+    <i
+      id="copy-link"
+      class="fa-fw fas fa-link small"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="{{ site.data.locales[include.lang].post.button.share_link.title }}"
+      data-title-succeed="{{ site.data.locales[include.lang].post.button.share_link.succeed }}"
+    >
     </i>
-
   </span>
 </div>
 
