@@ -3,10 +3,6 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
-# Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
-# and doesn't have a custom domain.
-baseurl: ""
-
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
@@ -22,7 +18,7 @@ title: HJ Tech Blog
 
 sidebar_title: HJ
 
-tagline: Cloud Enginner 
+tagline: Backend Engineer
 
 subdescription: 업무와 학습을 통해 습득한 지식과 노하우를 기록하고 공유하는 기술 블로그입니다.
 
@@ -31,8 +27,12 @@ description: >- # used by seo meta and the atom feed
 
 url: "https://hidingke8982.github.io"
 
+# Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
+# and doesn't have a custom domain.
+baseurl: ""
+
 github:
-  username: jjikin
+  username: hidingke8982
 
 twitter:
   username: none
@@ -40,23 +40,20 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: JJIKIN
-  email: jy_0521@naver.com
+  name: hjpark
+  email: hidingke8982@gmail.com
   links:
     # The first element serves as the copyright owner's link
-    - https://www.linkedin.com/in/ljy92 # change to your twitter homepage
-    - https://github.com/jjikin # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # 
+#    - https://www.linkedin.com/in/ljy92 # change to your twitter homepage
+#    - https://github.com/jjikin # change to your github homepage
 
-google_site_verification: HiUX75X39S2seddRhdXLzQhozcNg-Tv57p3UN-EiMj4
+google_site_verification: # HiUX75X39S2seddRhdXLzQhozcNg-Tv57p3UN-EiMj4
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: G-L0H0CKBWJF
+  id: # G-L0H0CKBWJF
 
 # Prefer color scheme setting.
 #
