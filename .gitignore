@@ -1,28 +1,22 @@
-# Bundler cache
-.bundle
+# hidden files
+.*
+!.git*
+!.editorconfig
+!.nojekyll
+!.travis.yml
+
+# bundler cache
+_site
 vendor
+
+# rubygem
+*.gem
 Gemfile.lock
 
-# Jekyll cache
-.jekyll-cache
-_site
-
-# RubyGems
-*.gem
-
-# NPM dependencies
+# npm dependencies
 node_modules
 package-lock.json
 
-# IDE configurations
+# Jetbrain Tools
 .idea
-.vscode
-
-# Mac
-.DS_Store
-
-# Misc
-#assets/js/dist
-
-# Obsidian
-.Obsidian
+.idea/*
