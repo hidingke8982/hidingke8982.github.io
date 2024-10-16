@@ -1,6 +1,6 @@
 ---
 title: Spring Data JDBC
-date: 2024-10-18 00:00:00 +09:00
+date: 2024-10-04 00:00:00 +09:00
 categories: [Spring, Spring Data]
 tags: [Spring]
 image: 
