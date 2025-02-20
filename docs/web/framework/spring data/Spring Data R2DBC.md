@@ -1,5 +1,6 @@
 ---
 title: Spring Data R2DBC
+parent: Spring Data
 nav_order: 3
 ---
 

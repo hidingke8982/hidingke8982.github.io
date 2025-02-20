@@ -1,5 +1,6 @@
 ---
 title: Spring Data JPA
+parent: Spring Data
 nav_order: 2
 ---
 

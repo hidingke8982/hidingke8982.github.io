@@ -1,5 +1,6 @@
 ---
 title: Spring MVC
+parent: Spring Framework
 nav_order: 1
 ---
 

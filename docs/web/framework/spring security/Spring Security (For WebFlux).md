@@ -1,5 +1,6 @@
 ---
 title: Spring Security (For WebFlux)
+parent: Spring Security
 nav_order: 2
 ---
 

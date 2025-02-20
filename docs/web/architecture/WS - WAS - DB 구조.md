@@ -1,7 +1,7 @@
 ---
 title: WS - WAS - DB 구조
+parent: Architecture
 nav_order: 1
-#parent: Web
 ---
 
 

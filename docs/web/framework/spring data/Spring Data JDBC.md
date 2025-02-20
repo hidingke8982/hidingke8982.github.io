@@ -1,5 +1,6 @@
 ---
 title: Spring Data JDBC
+parent: Spring Data
 nav_order: 1
 ---
 
