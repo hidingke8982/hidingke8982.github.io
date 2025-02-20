@@ -1,6 +1,6 @@
 ---
 title: Quantum Computer
-parent: Quantum Computer
+parent: Quantum Hardware
 nav_order: 1
 ---
 
