@@ -1,10 +1,10 @@
 ---
 parent: Architecture
 nav_order: 1
-title: WS-WAS-DB Architecture
+title: WS-WAS-DB
 ---
 
-# WS - WAS - DB 구조
+# WS - WAS - DB
 
 
 
