@@ -1,16 +1,12 @@
 ---
-title: Spring Data JDBC
+title: Spring Data JPA
 parent: Spring Data
-nav_order: 1
+nav_order: 2
 ---
 
-
-
----
-## 구성 배경
+# Spring Data JPA
 
 
 
----
 ## 참조
 - https://spring.io/projects/spring-data

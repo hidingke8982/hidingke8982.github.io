@@ -1,17 +1,13 @@
 ---
-title: Spring MVC
+title: Spring WebFlux
 parent: Spring Framework
-nav_order: 1
+nav_order: 2
 ---
 
-
-
----
-## 구성 배경
+# Spring WebFlux
 
 
 
----
 ## 참조
 - https://spring.io/projects/spring-framework
 - https://devfunny.tistory.com/918
