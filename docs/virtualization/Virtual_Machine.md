@@ -1,7 +1,7 @@
 ---
-title: Virtual Machine
 parent: Virtualization
 nav_order: 1
+title: Virtual Machine
 ---
 
 # Virtual Machine

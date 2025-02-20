@@ -1,7 +1,7 @@
 ---
-title: Pennylane
 parent: Framework
 nav_order: 1
+title: Pennylane
 ---
 
 # Pennylane

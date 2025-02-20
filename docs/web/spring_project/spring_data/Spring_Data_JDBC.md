@@ -1,7 +1,7 @@
 ---
-title: Spring Data JDBC
 parent: Spring Data
 nav_order: 1
+title: Spring Data JDBC
 ---
 
 # Spring Data JDBC

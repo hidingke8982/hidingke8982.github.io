@@ -1,7 +1,7 @@
 ---
-title: Spring MVC
 parent: Spring Framework
 nav_order: 1
+title: Spring MVC
 ---
 
 # Spring MVC

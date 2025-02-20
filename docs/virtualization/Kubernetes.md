@@ -1,7 +1,7 @@
 ---
-title: Kubernetes
 parent: Virtualization
 nav_order: 3
+title: Kubernetes
 ---
 
 # Kubernetes

@@ -1,7 +1,7 @@
 ---
-title: Spring Data R2DBC
 parent: Spring Data
 nav_order: 3
+title: Spring Data R2DBC
 ---
 
 # Spring Data R2DBC

@@ -1,7 +1,7 @@
 ---
-title: CUDA Quantum
 parent: Framework
 nav_order: 2
+title: CUDA Quantum
 ---
 
 # CUDA Quantum

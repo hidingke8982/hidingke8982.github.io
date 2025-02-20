@@ -1,7 +1,7 @@
 ---
-title: Spring WebFlux
 parent: Spring Framework
 nav_order: 2
+title: Spring WebFlux
 ---
 
 # Spring WebFlux

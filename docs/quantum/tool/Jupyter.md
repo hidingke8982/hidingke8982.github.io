@@ -1,7 +1,7 @@
 ---
-title: Jupyter
 parent: Tool
 nav_order: 1
+title: Jupyter
 ---
 
 # Jupyter

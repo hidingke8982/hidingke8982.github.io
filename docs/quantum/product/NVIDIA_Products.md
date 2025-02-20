@@ -1,7 +1,7 @@
 ---
-title: NVIDIA Products
 parent: Product
 nav_order: 1
+title: NVIDIA Products
 ---
 
 # NVIDIA Products

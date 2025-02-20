@@ -1,7 +1,7 @@
 ---
-title: Spring Security (For Servlet)
 parent: Spring Security
 nav_order: 1
+title: Spring Security (For Servlet)
 ---
 
 # Spring Security (For Servlet)
