@@ -1,6 +1,6 @@
 ---
 title: Spring Data
-parent: Framework
+parent: Spring Project
 nav_order: 2
 ---
 

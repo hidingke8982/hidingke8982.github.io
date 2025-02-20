@@ -1,6 +1,6 @@
 ---
 title: Spring Framework
-parent: Framework
+parent: Spring Project
 nav_order: 1
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Spring Security
-parent: Framework
+parent: Spring Project
 nav_order: 3
 ---
 
