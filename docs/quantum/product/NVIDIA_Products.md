@@ -1,6 +1,6 @@
 ---
 title: NVIDIA Products
-parent: Framework
+parent: Product
 nav_order: 1
 ---
 

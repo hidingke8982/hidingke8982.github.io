@@ -4,4 +4,4 @@ parent: Quantum
 nav_order: 1
 ---
 
-# Quantum Computer
+# Quantum Hardware
