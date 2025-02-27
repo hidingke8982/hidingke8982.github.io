@@ -5,29 +5,54 @@ title: Pennylane
 ---
 
 # Pennylane
-하이브리드 양자-고전(Quantum-Classical) 머신러닝을 위한 프레임워크
+양자-고전(Quantum-Classical) 하이브리드 컴퓨팅과 머신 러닝을 위한 Python 라이브러리.  
+양자 프로그래밍을 위한 오픈소스 프레임워크.
 
 
 
-## Basics
+## 기능
+- 양자 컴퓨터 프로그래밍:  
+  - 다양한 상태 준비(state preparation), 게이트(gates), 측정(measurements)을 사용하여 양자 회로를 구축 가능
+  - 중간 회로 측정(mid-circuit measurements) 및 오류 완화(error mitigation)와 같은 고급 기능으로, 고성능 시뮬레이터 또는 다양한 하드웨어 장치에서 실행 가능
+- 양자 알고리즘:
+  - NISQ(소규모 양자 장치)부터 오류 보정이 가능한 양자 컴퓨팅까지 다양한 알고리즘 활용 가능 
+  - 성능 분석, 회로 시각화, 양자 화학 및 알고리즘 개발을 위한 도구 제공
+- 양자 하드웨어 및 시뮬레이터를 활용한 머신러닝:
+  - PyTorch, TensorFlow, JAX, Keras, NumPy와 통합하여 하이브리드 모델을 정의하고 학습 가능 
+  - 양자 최적화(quantum-aware optimizers) 및 하드웨어 호환 그래디언트(gradients) 지원
+- 양자 데이터셋(Quantum datasets):
+  - 고품질, 사전 시뮬레이션된 데이터셋을 활용하여 연구 시간을 단축하고 알고리즘 개발을 가속화
+  - 데이터셋을 찾아보거나 직접 데이터를 기여할 수도 있음
+- 컴파일 및 성능 최적화:
+  - 실험적으로 JIT(Just-In-Time) 컴파일 지원
+  - 전체 하이브리드 워크플로우를 컴파일 가능
+  - 적응형 회로(adaptive circuits), 실시간 측정 피드백(real-time measurement feedback), 무제한 루프(unbounded loops)와 같은 고급 기능 지원
 
-### 특징 및 용도
-- TensorFlow, PyTorch 같은 딥러닝 프레임워크와 통합 가능
-- Variational Quantum Circuits (VQC) 기반으로 양자 머신러닝(Quantum Machine Learning, QML) 구현 
-- Qiskit, Rigetti, IonQ, Xanadu 등 여러 양자 하드웨어 지원 
-- 최적화와 자동 미분(Autograd, JAX, Torch) 가능
 
-### 활용 분야
+
+## 활용 분야
+- 양자-고전 하이브리드 컴퓨팅
 - 양자 머신러닝(QML)
+    - TensorFlow, PyTorch 같은 딥러닝 프레임워크와 통합 가능
+    - Variational Quantum Circuits (VQC) 기반으로 양자 머신러닝(Quantum Machine Learning, QML) 구현
+- 양자 화학
+- 양자 최적화
 - 변분 양자 알고리즘(VQA)
-- 양자 최적화 및 강화 학습
+- 자동 미분(Autograd, JAX, Torch) 가능
 
-### 지원 언어
-- Python
 
-### 지원 하드웨어
 
-### 예제 코드
+## 개발 환경
+- 지원 언어
+  - Python
+- 지원 하드웨어
+  - IonQ
+  - Rigetti
+  - Xanadu
+
+
+
+## 예제 코드
 ```python
 import pennylane as qml
 import numpy as np
