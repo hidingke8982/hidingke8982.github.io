@@ -5,7 +5,7 @@ title: Pennylane
 ---
 
 # Pennylane
-양자-고전(Quantum-Classical) 하이브리드 컴퓨팅과 머신 러닝을 위한 Python 라이브러리.  
+양자-고전(Quantum-Classical) 하이브리드 컴퓨팅, 양자 머신 러닝, 양자 화학을 위한 Python 라이브러리.  
 양자 프로그래밍을 위한 오픈소스 프레임워크.
 
 
