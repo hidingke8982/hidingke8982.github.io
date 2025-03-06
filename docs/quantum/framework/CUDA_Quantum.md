@@ -5,12 +5,12 @@ title: CUDA Quantum
 ---
 
 # CUDA Quantum
-NVIDIA 가 개발한 양자-고전 하이브리드 컴퓨팅 프레임워크
+NVIDIA 가 개발한 양자-고전 하이브리드 컴퓨팅 프레임워크.
 ![image](/assets/img/docs/quantum/NVIDIA_CUDA-Q.png)
 
 
 
-## 기능
+## 기능 및 특징
 - Software for Hybrid(Quantum-Classical) computing
 - GPU 가속 기반으로 양자 시뮬레이션 & 하이브리드 알고리즘 실행
 - NVIDIA DGX Quantum 시스템 및 GPU 가속 활용 가능

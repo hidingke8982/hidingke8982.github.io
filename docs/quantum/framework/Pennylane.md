@@ -10,7 +10,7 @@ title: Pennylane
 
 
 
-## 기능
+## 기능 및 특징
 - 양자 컴퓨터 프로그래밍:  
   - 다양한 상태 준비(state preparation), 게이트(gates), 측정(measurements)을 사용하여 양자 회로를 구축 가능
   - 중간 회로 측정(mid-circuit measurements) 및 오류 완화(error mitigation)와 같은 고급 기능으로, 고성능 시뮬레이터 또는 다양한 하드웨어 장치에서 실행 가능
