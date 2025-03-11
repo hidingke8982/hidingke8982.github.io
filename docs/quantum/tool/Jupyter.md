@@ -10,11 +10,12 @@ title: Jupyter
 
 ## JupyterNotebook
 인터랙티브한 문서 형태로 Python, R, Julia 등 다양한 언어의 코드를 실행할 수 있는 환경입니다. 코드, 결과, 설명, 시각화를 한 파일(.ipynb)에 담아 작업할 수 있습니다.
-- 특징
-  - 웹 브라우저 기반. 
-  - 데이터 분석 및 공유에 적합. 
-  - Markdown 지원. 
-  - 실행된 결과를 저장 가능.
+
+### 특징
+- 웹 브라우저 기반. 
+- 데이터 분석 및 공유에 적합. 
+- Markdown 지원. 
+- 실행된 결과를 저장 가능.
 
 ### .ipynb 파일 실행 과정
 1. JupyterLab 실행
@@ -40,7 +41,8 @@ title: Jupyter
 
 ## JupyterLab
 Jupyter Notebook 의 차세대 인터페이스로, IDE(통합 개발 환경)와 비슷한 방식으로 다중 창, 파일 탐색기, 터미널 등을 지원합니다.
-- 특징
+
+### 특징
   - 유연한 UI(다중 탭, 패널 분할 등).
   - Jupyter Notebook과 호환.
   - 확장 플러그인으로 기능 확장 가능.
@@ -50,13 +52,15 @@ Jupyter Notebook 의 차세대 인터페이스로, IDE(통합 개발 환경)와 
 
 ## JupyterHub
 여러 사용자를 지원하는 Jupyter Notebook 환경으로, 조직이나 팀이 공동으로 사용할 수 있습니다. 
-- 특징
+
+### 특징
   - 일종의 동적 WAS 라고 할 수 있다. 
   - 사용자 인증 및 관리.
   - 서버에서 호스팅되어 다수의 사용자가 동시에 작업 가능.
   - 교육, 연구, 협업에 적합. 
   - Docker 및 Kubernetes 와 연동 가능.
-- 아키텍처
+
+### 아키텍처
   - HTTP Server
     - 8000번 포트로 접근하면 JupyterHub 인터페이스 페이지가 뜬다.
   - Spawner
@@ -69,7 +73,23 @@ Jupyter Notebook 의 차세대 인터페이스로, IDE(통합 개발 환경)와 
     
     
 ## Jupyter Enterprise Gateway
-(내용 필요)
+관리형 클러스터 환경에서 여러 노트북 사용자를 지원하는 모든 사람을 위한 플러그형 프레임워크를 갖춘 헤드리스 웹 서버.  
+다중 사용자 환경에서 Jupyter Notebook 의 커널을 중앙에서 관리하고 확장성을 제공하는 솔루션.
+
+### 기능
+- 최적화된 리소스 할당
+  - 클러스터의 모든 노드에서 커널을 실행하여 리소스를 활용 (Hadoop YARN, Kubernetes, IBM Spectrum Conductor 등의 리소스 관리 시스템 사용)
+  - 플러그형 아키텍처(Pluggable Architecture)를 통해 추가적인 리소스 관리 시스템 지원 가능
+- 강화된 보안
+  - 종단간 보안 통신
+  - 보안 소켓 통신
+  - SSL을 사용한 암호화된 HTTP 통신
+- 다중 사용자 지원
+  - 사용자 흉내(User Impersonation) 기능을 활성화하여 보안 및 샌드박싱 강화 (Kerberos 인증 사용)
+
+### Sequence Diagram
+#### Case: JupyterHub + JupyterLab + Jupyter Enterprise Gateway
+<center><img src="/assets/img/docs/quantum/JupyterEnterpriseGateway_SequeceDiagram.png" width="50%" height="50%"></center>
 
 
 
@@ -79,3 +99,4 @@ Jupyter Notebook 의 차세대 인터페이스로, IDE(통합 개발 환경)와 
 - https://blog.jupyter.org/introducing-jupyter-enterprise-gateway-db4859f86762
 - https://github.com/jupyter-server/enterprise_gateway
 - https://jupyter-enterprise-gateway.readthedocs.io/en/latest/
+- https://jupyter-enterprise-gateway.readthedocs.io/en/latest/contributors/system-architecture.html

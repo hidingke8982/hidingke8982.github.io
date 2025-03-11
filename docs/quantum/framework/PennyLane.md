@@ -1,10 +1,10 @@
 ---
 parent: Framework
 nav_order: 1
-title: Pennylane
+title: PennyLane
 ---
 
-# Pennylane
+# PennyLane
 양자-고전(Quantum-Classical) 하이브리드 컴퓨팅, 양자 머신 러닝, 양자 화학을 위한 Python 라이브러리.  
 양자 프로그래밍을 위한 오픈소스 프레임워크.
 
@@ -80,7 +80,7 @@ print(circuit(theta))  # 양자 회로 실행 결과 출력
 이를 통해 PennyLane은 사용자가 어떤 하드웨어나 시뮬레이터에서 회로를 실행할지 결정할 수 있다.
 
 ### 플러그인
-플러그인은 PennyLane의 시스템에 특정 장치가 포함될 수 있도록 해주는 소프트웨어 구성 요소다.  
+플러그인은 PennyLane의 시스템에 하나 이상의 특정 장치가 포함될 수 있도록 해주는 소프트웨어 구성 요소다.  
 즉, 플러그인은 장치가 PennyLane 환경에 통합되도록 해주는 패키지이다.
 플러그인은 새로운 장치를 추가하거나 기존 장치의 기능을 확장하는 데 사용된다.
 

@@ -1,10 +1,10 @@
 ---
 parent: Framework
 nav_order: 2
-title: CUDA Quantum
+title: CUDA-Q
 ---
 
-# CUDA Quantum
+# CUDA-Q
 NVIDIA 가 개발한 양자-고전 하이브리드 컴퓨팅 프레임워크.
 ![image](/assets/img/docs/quantum/NVIDIA_CUDA-Q.png)
 
