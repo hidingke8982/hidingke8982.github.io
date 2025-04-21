@@ -6,6 +6,6 @@ description: "description"
 permalink: /
 ---
 
-# Welcome to github.io
+# Welcome to HJPARK's page
 
 
