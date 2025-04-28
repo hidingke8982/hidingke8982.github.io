@@ -1,7 +1,7 @@
 ---
 parent: Quantum
 nav_order: 3
-title: Tool
+title: Quantum Tool
 ---
 
-# Tool
+# Quantum Tool

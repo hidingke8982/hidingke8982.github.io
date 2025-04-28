@@ -1,5 +1,5 @@
 ---
-parent: Tool
+parent: Quantum Tool
 nav_order: 1
 title: Jupyter
 ---
@@ -88,7 +88,7 @@ Jupyter Notebook 의 차세대 인터페이스로, IDE(통합 개발 환경)와 
   - 사용자 흉내(User Impersonation) 기능을 활성화하여 보안 및 샌드박싱 강화 (Kerberos 인증 사용)
 
 ### Sequence Diagram
-#### Case: JupyterHub + JupyterLab + Jupyter Enterprise Gateway
+- Case: JupyterHub + JupyterLab + Jupyter Enterprise Gateway
 <center><img src="/assets/img/docs/quantum/JupyterEnterpriseGateway_SequeceDiagram.png" width="50%" height="50%"></center>
 
 
