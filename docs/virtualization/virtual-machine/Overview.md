@@ -1,5 +1,5 @@
 ---
-parent: Virtualization
+parent: Virtual Machine
 nav_order: 1
 title: Overview
 ---
