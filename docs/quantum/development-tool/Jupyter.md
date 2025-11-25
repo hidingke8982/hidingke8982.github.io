@@ -1,5 +1,5 @@
 ---
-parent: Quantum Tool
+parent: Development Tool
 nav_order: 1
 title: Jupyter
 ---

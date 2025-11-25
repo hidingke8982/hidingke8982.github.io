@@ -1,5 +1,5 @@
 ---
-parent: Quantum Computing Framework
+parent: Development Platform
 nav_order: 2
 title: PennyLane
 ---

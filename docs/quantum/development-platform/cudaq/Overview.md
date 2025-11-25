@@ -5,7 +5,7 @@ title: Overview
 ---
 
 # Overview
-NVIDIA 가 개발한 양자-고전 하이브리드 컴퓨팅 프레임워크.
+NVIDIA에서 개발했으며, QPU, GPU, CPU를 하나의 시스템에 통합하고 프로그래밍할 수 있도록 지원하는 양자-고전 하이브리드 컴퓨팅 플랫폼.
 ![image](/assets/img/docs/quantum/NVIDIA_CUDA-Q.png)
 
 
