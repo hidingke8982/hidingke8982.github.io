@@ -1,6 +1,6 @@
 ---
-parent: Development Platform
-nav_order: 3
+parent: Qiskit
+nav_order: 1
 title: Overview
 ---
 

@@ -1,5 +1,5 @@
 ---
-parent: Basic
+parent: Quantum Basics
 nav_order: 3
 title: Quantum Hardware
 ---
@@ -47,5 +47,5 @@ title: Quantum Hardware
 
 
 ## 참조
-- https://qubit.donghwi.dev/basic/1
+- https://qubit.donghwi.dev/Quantum Basics/1
 - https://namu.wiki/w/%EC%96%91%EC%9E%90%EC%BB%B4%ED%93%A8%ED%84%B0

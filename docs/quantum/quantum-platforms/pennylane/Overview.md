@@ -1,6 +1,6 @@
 ---
-parent: Development Platform
-nav_order: 2
+parent: PennyLane
+nav_order: 1
 title: Overview
 ---
 

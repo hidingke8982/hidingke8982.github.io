@@ -1,5 +1,5 @@
 ---
-parent: Basic
+parent: Quantum Basics
 nav_order: 1
 title: Quantum Mechanics
 ---
@@ -65,4 +65,4 @@ title: Quantum Mechanics
 
 
 ## 참조
-- https://qubit.donghwi.dev/basic/1
+- https://qubit.donghwi.dev/Quantum Basics/1

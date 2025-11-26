@@ -1,5 +1,5 @@
 ---
-parent: Basic
+parent: Quantum Basics
 nav_order: 4
 title: Quantum Operations
 ---
