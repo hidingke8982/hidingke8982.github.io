@@ -1,5 +1,5 @@
 ---
-parent: Quantum Products
+parent: NVIDIA
 nav_order: 1
 title: NVIDIA Products
 ---
