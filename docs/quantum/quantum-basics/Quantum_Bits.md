@@ -51,25 +51,30 @@ title: Quantum Bits
 4. 필요한 양자 게이트들을 갖출 수 있을 것
 5. 특정 큐비트을 대상으로 한 측정이 가능할 것
 
-### 초전도체 
+### 초전도체
+연산 속도가 매우 빠름. 10mK 극저온 필요.
 - (국외) IBM, Google, Microsoft, Rigetti Computing, Anyon Technologies, IQM, D-Wave Systems
 - (국내) KRISS
 
 ### 중성 원자
+확장성 우수. 양산 난이도 높음.
 - (국외) QuEra Computing, Pasqal, Atom Computing, Infleqtion, PlanQC
 - (국내) KRISS, 고려대, LG전자
 
 ### 이온 트랩
+게이트 정확도 우수. 게이트 속도 느림.
 - (국외) IonQ, Quantinuum, Universal Quantum, QUDORA
 - (국내) 서울대
 
+### 실리콘 스핀
+반도체 공장 활용 가능. 연구 초기 단계.
+- (국외) Intel, Microsoft, Silicon Quantum Computing
+- (국내) ?
+
 ### 광자
+양산성 높음. 단일 큐비트 기술 미규명
 - (국외) PsiQuantum, Xanadu, Quandela, ORCA Computing, Quantum Source
 - (국내) ETRI
-
-### 양자점
-- (국외) Intel, Microsoft
-- (국내) ?
 
 ### 다이아몬드 기반
 - (국외) Quantum Brilliance
