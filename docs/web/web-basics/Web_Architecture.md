@@ -55,6 +55,7 @@ WAS는 백엔드 애플리케이션 로직을 처리하고, 데이터베이스�
         - MongoDB, Redis, Cassandra.
 
 ### 예시
+
 | Layer                   | Java(Sync)      | Java(Async)      | Python(Async) |
 |-------------------------|-----------------|------------------|---------------|
 | Web Server              | Nginx/Apache    | Nginx            | Nginx         |
